@@ -1,6 +1,6 @@
-import booksModules  from './Books/bookScheme'
-import categoryModules from './Category/categoryScheme'
+import productModules from "./Product/productScheme";
+import salesModules from "./Sales/salesScheme";
 
-const modules = [booksModules, categoryModules]
+const modules = [productModules, salesModules];
 
 export default modules;
